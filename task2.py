@@ -15,3 +15,9 @@ outputs:
 Access granted
 Access denied
 """
+a = str(input("username?"))
+b = str(input("password?"))
+if a == "admin" and b == "12345":
+    print ("Access granted")
+else:
+    print ("Access denied")
