@@ -17,5 +17,11 @@ Enter number:1.3
 That is not an even integer
 Enter number:4
 That is an even integer
-
 """
+n = 1
+while n % 2 != 0:
+    n = float(input("Enter a number\n"))
+    if n % 2 != 0:
+        print("That is not an even integer.")
+    else:
+        print("That is an even integer.")
